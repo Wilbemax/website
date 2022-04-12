@@ -1,0 +1,109 @@
+@import url "@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap')";
+
+ body {
+     background-color:#DADADA;
+     color: black;
+
+     font-size: 16px;
+     font-weight: normal;
+     font-family: 'Roboto', sans-serif;
+
+
+
+ }
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: silver;
+}
+
+a:visited{
+    color: grey;
+}
+
+
+
+
+.avatar{
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 5px 4px 14px 2px rgba(0, 0, 0, 0.25);
+}
+
+
+.all{
+    max-width: 750px;
+    margin: auto;
+}
+
+.bg-blow{
+   background: #ACBAF0;
+}
+
+.bg-yello{
+    background: #fff9dc;
+    margin-bottom: 0px;
+}
+
+
+.card{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.doing{
+    padding: 0px 20px;
+
+}
+.cotial{
+    list-style: none;
+    padding: 0px 20px;
+}
+.svs h2{
+    text-align: center;
+
+}
+.form-group label{
+    display: block;
+    font-size: 14px;
+    color: #5A5A5B;
+}
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    box-sizing:border-box ;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    background: transparent;
+}
+
+.rol{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.roi > .form-group{
+    width: 50%;
+    margin-right: 20px;
+}
+
+.btn {
+    font-family: inherit;
+    border: none;
+    cursor: pointer;
+
+}
+.btn:hover{
+    opacity: 0.9;
+}
