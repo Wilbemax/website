@@ -1,5 +1,10 @@
 @import url "@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap')";
 
+
+
+h5{
+    color: grey;
+}
  body {
      background-color:#DADADA;
      color: black;
@@ -17,13 +22,13 @@ a {
 }
 
 a:hover{
-    text-decoration: underline;
+    text-decoration: underline ;
 }
+a:visited{
 a:active{
     color: silver;
 }
 
-a:visited{
     color: grey;
 }
 
@@ -61,6 +66,9 @@ a:visited{
 .doing{
     padding: 0px 20px;
 
+}
+.doing h5{
+    color: silver;
 }
 .cotial{
     list-style: none;
